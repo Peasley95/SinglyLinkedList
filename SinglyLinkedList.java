@@ -110,10 +110,7 @@ public class SinglyLinkedList<E> extends AbstractSequentialList<E>
     /**
     * 1d. This will need testing but I believe that the use of the
     * setRight method should work nicely
-    * 
-    * Will I need to rewrite this to use the iterator? Probably
-    * Then this code will move into my collection constructor.
-    * I think that's what he wants, who fucking knows with Steffan though
+    *
     */
     public boolean add(E elem) {
        if(isEmpty()) //Case 1: List is empty so the new node becomes the head
